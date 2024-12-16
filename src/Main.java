@@ -11,7 +11,7 @@ class SecretCode {
     private String[] generateCode(int length, boolean useColors, boolean mixed) {
         Random random = new Random();
         String[] code = new String[length];
-        String[] colors = {"A", "B", "C", "D", "E", "F"};
+        String[] colors = {"R", "G", "B", "Y", "P", "O"};
         for (int i = 0; i < length; i++) {
             if (mixed) {
                 if (random.nextBoolean()) {
